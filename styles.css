@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h4, p {
+    display: inline-block;
+    margin: 0;
+    font-size: 0.7rem;
+}
+
+hr {
+    opacity: 0.5;
+}
+
+h6 {
+    margin: 0;
+}
+
+.name-and-comment {
+    margin-left: 10px;
+}
+
+.blue-text {
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.rounded {
+    max-width: 50px;
+    border-radius: 50%;
+}
+
+.card-recommended {
+    display: flex;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.text-recommended {
+    margin-left: 5px;
+}
+
+.text-with-opacity {
+    opacity: 0.5;
+    margin: 10px 0;
+}
+
+.small-img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.single-comment {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+
+#main-video-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 5px 0 0 0;
+}
+
+#div-for-description {
+    margin-left: 50px;
+}
+
+#user {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#bold {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+#recommended {
+    width: 100%;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 1px 1px 10px;
+    align-items: center;
+}
+
+#description {
+    margin-top: 40px;
+}
+
+#main {
+    display: flex;
+    padding: 0.25rem 1rem;
+}
+
+#small-text {
+    font-size: 0.7rem;
+}
+
+#thumb-img {
+    width: 100%;
+    height: auto;
+}
+
+#video {
+    min-width: 75%;
+}
+
+#logo-img {
+    width: 80px;
+    height: auto;
+}
+
+#channel-info {
+    display: flex;
+    align-items: center;
+}
